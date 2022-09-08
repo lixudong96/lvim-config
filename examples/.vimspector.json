@@ -1,0 +1,25 @@
+{
+  "configurations": {
+    "run": {
+      "adapter": "vscode-node",
+      "breakpoints": {
+        "exception": {
+          "all": "N",
+          "uncaught": "N"
+        }
+      },
+      "configuration": {
+        "protocol": "auto",
+        "stopOnEntry": false,
+        "cwd": "${workspaceRoot}",
+        "type": "pwa-node",
+        "name": "launch program",
+        "request": "launch",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "program": "${workspaceRoot}/app.js"
+      }
+    }
+  }
+}
