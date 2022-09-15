@@ -23,6 +23,7 @@ lvim.leader = "space"
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
 lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
+lvim.keys.normal_mode["<ESC>"] = "<cmd> noh <CR>"
 
 -- debug
 -- lvim.keys.normal_mode["<leader>dr"] = ":call vimspector#Restart()<CR>"
